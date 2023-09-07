@@ -1,0 +1,38 @@
+{
+  "name": "tghook",
+  "version": "0.1.0",
+  "description": "Lightweight webhook management CLI utility for Telegram.",
+  "main": "src/index.js",
+  "bin": {
+    "tghook": "src/index.js"
+  },
+  "type": "module",
+  "directories": {
+    "lib": "src"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losparviero/tghook.git"
+  },
+  "author": {
+    "name": "Zubin",
+    "email": "me@zubin.org.in",
+    "url": "https://zubin.org.in"
+  },
+ "keywords": [
+  "telegram",
+  "telegram-bot",
+  "telegram-webhook",
+  "webhook",
+  "cli",
+  "cli-utility"
+ ],
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "input": "^1.0.1"
+  }
+}
